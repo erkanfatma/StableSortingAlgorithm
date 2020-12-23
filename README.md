@@ -33,7 +33,7 @@ If all keys are different then this distinction is not necessary. However, if eq
 -	Oscillating Merge Sort
 -	Cocktail Shaker Sort
 
-### Unstable Sorting Algorithm
+### Unstable Sorting Algorithms
 -	Quick Sort
 -	Heap Sort
 -	Selection Sort 
