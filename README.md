@@ -11,6 +11,7 @@ This difference is more understandable when the algorithm sorts key-value pairs 
 and the algorithm sort the above key-value pairs in the increasing order of keys. Then there are two possible outputs for this algorithm as shown below:
 - (3,4), (3,1), (5,2), (6,7), (10,1)
 - (3,1), (3,4), (5,2), (6,7), (10,1)
+
 The sorting algorithm that produces the first output “ (3,4), (3,1), (5,2), (6,7), (10,1) ” is known as a stable sorting algorithm. This is because the original order of equal keys order is the same as the given input. The order of (3,4) and (3,1) do not change. However, if the algorithm is unstable then the result will be the second solution “ (3,1), (3,4), (5,2), (6,7), (10,1) ”. In this case, the order of the result with equal keys is not maintained in sorted order.
 If all keys are different then this distinction is not necessary. However, if equal keys exist in the list, then a sorting algorithm is stable if there are two data (let me say A and B for these elements) with the same key, and A appears before B in the input list, then A will always appear before B in the output list.
 
