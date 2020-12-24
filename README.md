@@ -8,7 +8,9 @@ The stability of a sorting algorithm is about how the algorithm treats repeated 
 For instance, if you need to sort (2, 4, 5, 7, 8, 10, 10). After if an algorithm does not change the order of last two elements then the algorithm is stable. However, if the algorithm swaps these two elements, then it becomes an unstable algorithm even the result of resorting is the same with first sorting result. 
 This difference is more understandable when the algorithm sorts key-value pairs by their keys. If the algorithm is stable, there is one output exists as a solution. Discuss an example, we have 
 - (10,1), (3,4), (3,1), (5,2), (6,7)
+
 and the algorithm sort the above key-value pairs in the increasing order of keys. Then there are two possible outputs for this algorithm as shown below:
+
 - (3,4), (3,1), (5,2), (6,7), (10,1)
 - (3,1), (3,4), (5,2), (6,7), (10,1)
 
